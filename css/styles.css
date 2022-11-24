@@ -22,6 +22,7 @@ footer {
   --background-gray: #f5f4fa;
   --card-background: #eeeeee;
   --border-color: rgba(238, 238, 238, 1);
+  --icon-gray-color: #afb1b8;
 }
 
 h1,
@@ -291,6 +292,7 @@ header {
 
 .icon-conteiner {
   display: flex;
+  align-items: center;
   justify-content: center;
 
   height: 120px;
@@ -372,7 +374,6 @@ header {
 }
 
 .card-social-icon {
-  margin-top: 16px;
 }
 
 .social-icon-item {
@@ -387,6 +388,7 @@ header {
 
 .social-icon-list {
   display: flex;
+  margin-top: 16px;
 }
 
 .social-icon-link {
@@ -404,7 +406,7 @@ header {
 }
 
 .social-icon {
-  fill: var(--description-color);
+  fill: var(--icon-gray-color);
 }
 
 .social-icon-link:hover,
@@ -440,7 +442,7 @@ header {
 }
 
 .icon-company {
-  fill: #afb1b8;
+  fill: var(--icon-gray-color);
 }
 
 .company-link:hover,
@@ -502,7 +504,6 @@ footer {
   margin-right: 10px;
 }
 .icon-footer {
-  height: 20px;
   fill: var(--white-color);
 }
 .social-link:hover,
@@ -596,6 +597,10 @@ footer {
   padding: 20px 24px;
   border: 1px solid var(--border-color);
   border-top: none;
+}
+
+.card-link {
+  display: block;
 }
 
 .card-link:hover,
